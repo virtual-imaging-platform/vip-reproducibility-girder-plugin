@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
 setup(
     name='girder-convert-vip-experiment',
@@ -12,6 +12,7 @@ setup(
         'girder>=3',
         'docker==6.1.2',
     ],
+    packages=find_packages(exclude=['plugin_tests']),
     include_package_data=True,
     entry_points={
         'girder.plugin': [
