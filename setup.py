@@ -8,6 +8,7 @@ setup(
     author='Blot Hippolyte, Creatis',
     author_email='hippolyte.blot@creatis.insa-lyon.fr',
     zip_safe=False,
+    setup_requires=['setuptools-git'],
     install_requires=[
         'girder>=3',
         'docker==6.1.2',
