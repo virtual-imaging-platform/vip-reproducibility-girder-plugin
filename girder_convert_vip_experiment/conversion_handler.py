@@ -132,7 +132,8 @@ def call_container(container_name, hashed, exp_id):
                 'mode': 'rw'
             },
         },
-        detach=False
+        detach=False,
+        auto_remove=True
     )
     print(cc)
 
