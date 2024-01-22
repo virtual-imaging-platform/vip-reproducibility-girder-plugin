@@ -7,6 +7,7 @@ setup(
     'for the VIP reproducibility dashboard',
     author='Blot Hippolyte, Creatis',
     author_email='hippolyte.blot@creatis.insa-lyon.fr',
+    zip_safe=False,
     install_requires=[
         'girder>=3',
         'docker==6.1.2',
