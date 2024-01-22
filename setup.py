@@ -11,13 +11,11 @@ setup(
     install_requires=[
         'girder>=3',
         'docker==6.1.2',
-        'jsonschema==4.20.0',
-        'pymongo==3.13.0',
-        'setuptools==67.7.2'
     ],
     include_package_data=True,
     entry_points={
         'girder.plugin': [
-            'conversion = girder_convert_vip_experiment:ConvertVIPExperiment']
+            'conversion = girder_convert_vip_experiment:ConvertVIPExperiment'
+        ]
     }
 )
