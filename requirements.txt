@@ -1,0 +1,5 @@
+docker==6.1.2
+girder==3.1.17
+jsonschema==4.20.0
+pymongo==3.13.0
+setuptools==67.7.2
