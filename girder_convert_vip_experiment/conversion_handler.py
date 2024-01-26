@@ -37,7 +37,6 @@ class ConversionHandler(Resource):
         super().__init__()
         self.resourceName = 'convert'
         self.settings = Setting()
-        self.resourceName = 'convert'
         User().exposeFields(level=AccessType.READ, fields={'canConvert'})
         self.route('GET', (), self.launch_execution)
 
